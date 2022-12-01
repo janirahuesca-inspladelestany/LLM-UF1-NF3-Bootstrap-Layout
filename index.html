@@ -1,104 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projecte Pagina</title>
+  <link rel="icon" type="image/x-icon" href="./icons/brush.svg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="./JavaScript/header.js" type="text/javascript" defer></script>
+  <script src="./JavaScript/footer.js" type="text/javascript" defer></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixel art</title>
 </head>
+
 <body>
-    <header>
-        <header>
-            <!-- Navbar -->
-            <nav class="navbar navbar-expand navbar-light bg-white">
-              <div class="container-fluid">
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-mdb-toggle="collapse"
-                  data-mdb-target="#navbarExample01"
-                  aria-controls="navbarExample01"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarExample01">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item active">
-                      <a class="nav-link" aria-current="page" href="asd.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Pàgina 1</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Pàgina 2</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Pàgina 3</a>
-                    </li>
-                  </ul>
-                </div>
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand navbar-light bg-white">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+        aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarExample01">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page"><img src="./icons/home.svg" width="30" height="24"><img></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pag1.html" target="_blank">Pàgina 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pag2.html" target="_blank">Pàgina 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pag3.html" target="_blank">Pàgina 3</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Navbar -->
+
+  <!-- Background image -->
+  <div id="imatgeHeader"></div>
+  <content>
+    <div class="container p-5">
+      <div class="row">
+        <div class="col col-12 col-sm-6 col-lg-4">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/1.png" class="d-block w-100" alt="...">
               </div>
-            </nav>
-            <!-- Navbar -->
-          
-            <!-- Background image -->
-            <div
-              class="p-5 text-center bg-image"
-              style="background-color: #00c281;"
-            >
-              <div class="mask" style="background-color: rgba(0, 0, 0, 0.15);">
-                <div class="d-flex justify-content-center align-items-center h-100">
-                  <div class="text-white">
-                    <h1 class="mb-3">Pagina Súper Guay</h1>
-                  </div>
-                </div>
+              <div class="carousel-item">
+                <img src="./images/2.png" class="d-block w-100" alt="...">
               </div>
-            </div>
-            <!-- Background image -->
-          </header>
-    </header>
-    <content>
-        <div class="container">
-            <div class="row">
-              <div class="col col-12 col-sm-8">
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="./images/1.png" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="./images/2.png" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="./images/3.png" class="d-block w-100" alt="...">
-                      </div>
-                    </div>
-                  </div>
-              </div>
-              <div class="col col-12 col-sm-4">
-                <h3>Why do we use it?</h3>
-                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+              <div class="carousel-item">
+                <img src="./images/3.png" class="d-block w-100" alt="...">
               </div>
             </div>
           </div>
-    </content>
-    <footer>
-        <div class="container">
-            <footer class="py-3 my-4" >
-              <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pàgina 1</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pàgina 2</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pàgina 3</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pàgina 4</a></li>
-              </ul>
-              <p class="text-center text-muted">© 2022 Company, Inc</p>
-            </footer>
+        </div>
+        <div class="col col-12 col-sm-6 col-lg-8">
+          <div class="overflow-auto">
+            <h3>Lorem Ipsum</h3>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam commodo ipsum non dui ullamcorper, in
+            pretium arcu tempus. Nam in turpis quam. Nulla ante nisi, sagittis at tincidunt vitae, consectetur in augue.
+            Integer nec odio lorem. Cras quis turpis id tellus posuere cursus. Curabitur ut diam leo. Vestibulum erat
+            quam, aliquet non felis et, fermentum iaculis eros. Mauris risus diam, luctus at arcu eget, ullamcorper
+            aliquam neque. Quisque quam neque, interdum at scelerisque id, viverra quis ligula. Morbi at nulla in orci
+            mattis laoreet. Pellentesque luctus hendrerit nisi a tincidunt. Sed a consectetur urna, at malesuada massa.
+            Vestibulum quis viverra ligula. Suspendisse congue mi ac ipsum auctor pulvinar. Vestibulum eu viverra urna.
+            Fusce quis tincidunt mauris.
           </div>
-    </footer>
+        </div>
+      </div>
+    </div>
+  </content>
+  <div class="container">
+    <footer class="py-3 my-4">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="index">Home</li>
+        </ol>
+      </nav>
+      <div id="firma"></div>
+  </div>
+  </footer>
 </body>
+
 </html>
