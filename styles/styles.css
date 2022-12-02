@@ -1,0 +1,27 @@
+:root {
+    --primary: #D4F1F4;
+    --secondary: #189AB4;
+    --dark: #05445E;
+    --info: #75E6DA;
+}
+
+body {
+    background-color: var(--primary);
+}
+
+p {
+    color: var(--dark);
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+p strong {
+    font-weight: bold;
+}
+
+h3 {
+    color: var(--secondary);
+    font-weight: bold;
+}
+
+
