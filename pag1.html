@@ -8,8 +8,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+  <script src="./JavaScript/navbar.js" type="text/javascript" defer></script>
   <script src="./JavaScript/header.js" type="text/javascript" defer></script>
   <script src="./JavaScript/footer.js" type="text/javascript" defer></script>
+  <link rel="stylesheet" href="./styles/styles.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,55 +21,34 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-expand navbar-light bg-white">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
-        aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarExample01">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li>
-            <a class="nav-link" href="index.html" aria-current="page"><img src="./icons/home.svg" width="30"
-                height="24"><img></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link">Tipus Isometric</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pag2.html">Tipus Top-Bottom</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pag3.html">Tipus 2D</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- Navbar -->
+  <div id="navBar"></div>
+  <!-- Background image -->
   <div id="imatgeHeader"></div>
 
-  <!-- Background image -->
   <content>
-    <div class="col col-12 p-5">
-      <h1>Tipus Isometric</h1>
-      <p>En pixel art, "isomètric" es refereix al treball que 
-        utilitza la projecció gràfica de l'isometria en lloc 
-        de la perspectiva tradicional (també coneguda com a lineal). 
-        Tot i que totes les formes de perspectiva requereixen almenys 
-        un punt de fuga, l'art de píxels isomètric no té punts de fuga. 
-        Per això, l'escorçament (reducció de la longitud visual 
-        d'alguna cosa a mesura que retrocedeix a l'espai) és 
-        igual en totes les superfícies i no depèn de la distància 
-        de l'espectador. Això fa que la projecció isomètrica 
-        sigui una bona opció per a coses com la il·lustració 
-        arquitectònica i tècnica, així com l'art del joc. En 
-        una vista isomètrica, l'amplada, la profunditat i l'alçada 
-        'un cub són mesures visuals iguals.</p>
-
-        <div class="d-flex justify-content-center">
-        <img src="./images/4.png" class="w-30" alt="...">
-        </div>
+    <div class="row">
+      <div class="col col-12 p-5">
+        <h3>Tipus Isometric</h3>
+        <p>En pixel art, <em>isomètric</em> es refereix al <strong>treball que
+            utilitza la projecció gràfica de l'isometria en lloc
+            de la perspectiva tradicional</strong> (també coneguda com a lineal).
+          Tot i que totes les formes de perspectiva requereixen almenys
+          un punt de fuga, l'art de píxels isomètric no té punts de fuga.
+          Per això, l'escorçament (reducció de la longitud visual
+          d'alguna cosa a mesura que retrocedeix a l'espai) és
+          igual en totes les superfícies i no depèn de la distància
+          de l'espectador. Això fa que la projecció isomètrica
+          sigui una bona opció per a coses com la il·lustració
+          arquitectònica i tècnica, així com l'art del joc. En
+          una vista isomètrica, l'amplada, la profunditat i l'alçada
+          'un cub són mesures visuals iguals.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-12 d-flex justify-content-center">
+        <img src="./images/4.png" class="w-30" alt="Habitació feta amb pixel art">
+      </div>
+    </div>
   </content>
 
   <div class="container">

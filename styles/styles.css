@@ -5,18 +5,32 @@
     --info: #75E6DA;
 }
 
+.navbar {
+    width: 100%;
+    height: 0%;
+    padding-top: 2em!important;
+    padding-bottom: 2em!important;
+}
+
+.navbar:hover {
+    background-color: var(--dark);
+    height: 3em;
+}
+
+.nav-link {
+    color: var(--primary)!important;
+}
+
+.nav-link:hover {
+    color: var(--secondary)!important;
+}
+
+.navbar-nav .active {
+    border-bottom: 2px solid var(--primary);
+}
+
 body {
     background-color: var(--primary);
-}
-
-p {
-    color: var(--dark);
-    font-size: 1.3em;
-    text-align: justify;
-}
-
-p strong {
-    font-weight: bold;
 }
 
 h3 {
@@ -24,4 +38,17 @@ h3 {
     font-weight: bold;
 }
 
+p {
+    color: var(--dark);
+    font-size: 1em;
+    text-align: justify;
+}
 
+p strong {
+    font-weight: bold;
+}
+
+p em {
+    font-style: italic;
+    font-weight: bold;
+}

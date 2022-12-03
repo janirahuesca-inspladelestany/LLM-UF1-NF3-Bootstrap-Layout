@@ -8,8 +8,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+  <script src="./JavaScript/navbar.js" type="text/javascript" defer></script>
   <script src="./JavaScript/header.js" type="text/javascript" defer></script>
   <script src="./JavaScript/footer.js" type="text/javascript" defer></script>
+  <link rel="stylesheet" href="./styles/styles.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,47 +21,25 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-expand navbar-light bg-white">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
-        aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarExample01">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li>
-            <a class="nav-link" href="index.html" aria-current="page"><img src="./icons/home.svg" width="30"
-                height="24"><img></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pag1.html">Tipus Isometric</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link">Tipus Top-Bottom</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pag3.html">Tipus 2D</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- Navbar -->
+  <div id="navBar"></div>
+  <!-- Background image -->
   <div id="imatgeHeader"></div>
 
-  <!-- Background image -->
   <content>
-    <div class="col col-12 p-5">
-      <h1>Tipus Top-Down</h1>
-      <p>
-        L'estil top-down es pot resumir en una "vista d'ocell",
-        on l'ambient es divideix per una jerarquia de capes, on
-        la més alta pot accedir a la més baixa, però la més baixa
-        no pot accedir a la més alta, aquí una imatge de demostració:</p>
-
-      <div class="col col-12 d-flex justify-content-center">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/2JCG4fCmeHk" title="Video"
-          frameborder="0" allowfullscreen></iframe>
+    <div class="row">
+      <div class="col col-12 p-5">
+        <h3>Tipus Top-Down</h3>
+        <p>
+          <strong>L'estil top-down es pot resumir en una "vista d'ocell"</strong>,
+          on l'ambient es divideix per una jerarquia de capes, on
+          la més alta pot accedir a la més baixa, però la més baixa
+          no pot accedir a la més alta.
+        </p>
+        <p>Aquí un vídeo de demostració:</p>
+        <div class="col col-12 d-flex justify-content-center">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/2JCG4fCmeHk" title="Video" frameborder="0"
+            allowfullscreen></iframe>
+        </div>
       </div>
   </content>
 
