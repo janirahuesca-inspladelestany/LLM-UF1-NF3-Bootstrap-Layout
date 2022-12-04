@@ -12,7 +12,7 @@ navBar.innerHTML = `
             <a class="nav-link" href="index.html"><img src="./icons/home.svg" width="30" height="24"><img></a>
           </li>
           <li id="pag1" class="nav-item">
-            <a class="nav-link" href="pag1.html" target="_blank">Tipus isometric</a>
+            <a class="nav-link" href="pag1.html" target="_blank">Tipus isomètric</a>
           </li>
           <li id="pag2" class="nav-item">
             <a class="nav-link" href="pag2.html" target="_blank">Tipus Top-Bottom</a>
