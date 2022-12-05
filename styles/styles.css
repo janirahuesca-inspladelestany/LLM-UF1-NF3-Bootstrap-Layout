@@ -1,0 +1,98 @@
+:root {
+    --primary: #D4F1F4;
+    --secondary: #189AB4;
+    --dark: #05445E;
+    --info: #75E6DA;
+}
+
+.navbar {
+    width: 100%;
+    height: 0%;
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+}
+
+.navbar:hover {
+    background-color: var(--dark);
+    height: 3em;
+}
+
+.nav-link {
+    color: var(--primary) !important;
+}
+
+.nav-link:hover {
+    color: var(--secondary) !important;
+}
+
+.navbar-nav .active {
+    border-bottom: 0.1em solid var(--primary);
+}
+
+body {
+    background-color: var(--primary);
+    overflow-x: hidden;
+}
+
+h3 {
+    color: var(--secondary);
+    font-weight: bold;
+}
+
+.card-text {
+    overflow-y: auto;
+    max-height: 20em;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 1em;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px var(--dark);
+    border-radius: 5em;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--secondary);
+    border-radius: 5em;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--dark);
+}
+
+p {
+    color: var(--dark);
+    font-size: 1em;
+    text-align: justify;
+}
+
+p strong {
+    font-weight: bold;
+}
+
+p em {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.breadcrumb-item a {
+    color: var(--secondary);
+}
+
+#animation {
+    width: 820px;
+    height: 492px;
+    background: red;
+    transition: width 2s, height 2s;
+  }
+
+#animation:hover {
+width: 1020px;
+height: 692px;
+}
