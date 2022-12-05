@@ -84,3 +84,15 @@ p em {
 .breadcrumb-item a {
     color: var(--secondary);
 }
+
+#animation {
+    width: 820px;
+    height: 492px;
+    background: red;
+    transition: width 2s, height 2s;
+  }
+
+#animation:hover {
+width: 1020px;
+height: 692px;
+}
